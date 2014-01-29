@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:key="@string/device_name" android:title="@string/device_name" android:defaultValue="Android Device"/>
+    <EditTextPreference android:title="@string/upload_url" android:key="@string/upload_url" android:defaultValue="http://example.com/upload.php"/>
+    <EditTextPreference android:title="@string/upload_interval" android:key="@string/upload_interval" android:defaultValue="15000"/>
+</PreferenceScreen>
